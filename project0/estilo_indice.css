@@ -25,10 +25,12 @@ th, td {
     border: 1px solid black;
     padding: 5px;
     text-align: center;
-    background-color: green;
 }
 
 th {
     background-color: lightgray;
 }
 
+td {
+    background-color: green;
+}

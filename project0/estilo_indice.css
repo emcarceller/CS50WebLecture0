@@ -1,15 +1,41 @@
-#index_1 {
+html,body {
+  background-color: #afc9d6;
+  padding-top: 10px;
+
+}
+
+#cabecera_1 {
     font-size: 36px;
     color: #435f6d;
     text-align: center;
+    font-family: Comic sans ms, Courier, Verdana, Arial, sans-serif;
+    font-style:italic;
+    border-bottom: solid;
+    margin-bottom: 0px;
+    padding-bottom:0px;
+    margin-top: 0px;
+    border-top: 0px;
+    padding-top: 0px;
 }
+
+.row {
+  margin-top: 1px;
+
+}
+
+
+.col-sm-3 {
+    background-color: #f2f7f7;
+}
+
+.col-sm-9 {
+    background-color: #cdeef2;
+}
+
 
 #espacios {font-size: 12px;}
 
-html,body {
-  background-color: #afc9d6;
-  padding: 50px;
-}
+
 
 .tabla_1{
   padding: 1000px;
@@ -28,9 +54,9 @@ th, td {
 }
 
 th {
-    background-color: lightgray;
+    background-color: #f4bb0e;
 }
 
 td {
-    background-color: green;
+    background-color: #f7e89e;
 }
